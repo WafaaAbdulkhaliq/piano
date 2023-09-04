@@ -1,0 +1,30 @@
+body{
+
+      background-color: black;
+      margin: 10px 50px;
+      font-size: 2.5em;
+      display: inline-block;
+      font-size: 60px;
+
+}
+div {
+ 
+
+    height: 300px;
+    width: 100px;
+    background-color: rgb(244, 244, 250);
+    display: inline-block;
+    text-align:center;
+    font-size: 60px;
+    position:center;
+    top:150px; 
+ 
+} 
+
+div:hover {background-color:#00ff90;}
+div:active {background-color:black;}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 black;
+    opacity: 0.5;
+}
